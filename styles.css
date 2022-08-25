@@ -1,0 +1,11 @@
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .conteiner div {
+    border: 10px solid black;
+    width: 87%;
+    height: 400px;
+  }
