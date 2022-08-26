@@ -10,12 +10,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    flex-direction: column;
     margin-top: 50px;
   }
   .tarjeta1 {
     background-color: var(--Brightorange);
-
     border-radius: 10px 10px 0px 0px;
     width: 325px;
     height: 400px;
@@ -24,7 +23,7 @@
   .tarjeta2{
     background-color: var(--Darkcyan);
     width: 325px;
-    height: 390px;
+    height: 400px;
   }
   .tarjeta3{
     background-color: var(--Verydarkcyan);
@@ -47,14 +46,22 @@
       margin-left: 40px;
       border: 1px;   
   }
-  .boton {
+  button {
     margin-left: 40px;
     height: 47px;
     width: 142px;
     border-radius: 30px;
     border:0px;
     font-family: 'Lexend Deca', sans-serif;
+  }
+  .boton1{
     color: var(--Brightorange);
+  }
+  .boton2{
+    color: var(--Darkcyan);
+  }
+  .boton3{
+    color: var(--Verydarkcyan);
   }
   .letras {
     color: var(--Transparentwhite);

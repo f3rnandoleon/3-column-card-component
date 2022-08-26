@@ -1,0 +1,11 @@
+.conteiner{
+    flex-direction: row;
+    margin-top: 350px;
+}
+.tarjeta1{
+    border-radius: 10px 0px 0px 10px;
+}
+.tarjeta3
+{
+    border-radius: 0px 10px 10px 0px;
+}
