@@ -1,10 +1,14 @@
 .conteiner{
     flex-direction: row;
-    margin-top: 350px;
+    margin-top: 330px;
 }
 .tarjeta1{
     border-radius: 10px 0px 0px 10px;
 }
+.tarjeta2{
+    width: 325px;
+    height: 400px;
+  }
 .tarjeta3
 {
     border-radius: 0px 10px 10px 0px;
